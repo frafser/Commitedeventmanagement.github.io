@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commited Event Manegment</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/navbar-fixed.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="home">
+        <nav class="navbar fixed-top navbar-dark bg-dark">
+            <div class="logo-area">
+                <a href="index.html" class="navbar-brand"><img src="image/logo/logo.jpg" width="50" alt="logo"> <span>কমিটেড ইভেন্ট ম্যানেজমেন্ট</span></a>
+            </div>
+            <button id="sidemenubar" class="navbar-toggler">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+        <div id="sidebar" class="sidebar">
+            <div id="sidebarChange" class="sidebarClose">
+                <ul class="navbar-nav">
+                    <div class="ml-3">
+                        <img class="mb-2" src="image/logo/logo.jpg" width="100" alt="">
+                    </div>
+                    <li class="nav-item"><a class="nav-link" href="#home"><i class="fas fa-home"></i> হোম পেইজ</a></li>
+                    <ul class="navbar-nav sub-menu">
+                        <li><a class="nav-link" href="#catagory"><i class="fas fa-holly-berry"></i> সেবা সমূহ</a></li>
+                        <div class="sub-item">
+                            <li class="nav-item"><a class="nav-link" href="#decoration">ডেকোরেশন</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#borsaj">বর সাঁজ</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#konesaj">কনে সাঁজ</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#holod">হলুদ ছোঁয়া</a></li>
+                        </div>
+                    </ul>
+                    <li class="nav-item"><a class="nav-link" href="#photograpy"><i class="fas fa-camera-retro"></i> ফটোগ্রাফি</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-tags"></i> বুকিং করুন</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-phone-alt"></i> যোগাযোগ</a></li>
+                </ul>
+            </div>
+            <div id="sidebarOverlay" class="sidebar-overlayCLOSE"></div>
+        </div>
+    </header>
+    <!-- ====================== End Header =========================== -->
+    <div id="main-body"">
+        <section id="banner">
+            <div class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="2000">
+                        <img src="image/photos/slide4.jpg" class="d-block w-100"  alt="image">
+                        <div class="overlay"></div>
+                        <div class="caption">
+                            <h1>আপনি কি বিয়ের এর অনুষ্ঠান করার কথা ভাবছেন ?</h1>
+                            <p>তাহলে আজই যোগাযোগ করুন আমাদের সাথে <br>
+                                কমিটেড  ইভেন্টস্ আপনাকে দিচ্ছে সুন্দর ও আকর্ষনীয় অনুষ্ঠানের নিশ্চয়তা। <br>
+                                স্থান: বঙ্গবন্ধু স্কয়ার সংলগ্ন, চৌদ্দগ্রাম বাজার, চৌদ্দগ্রাম, কুমিল্লা।  
+                            </p>
+                            <a href="tal:+8801855793111" class="btn contact-btn">
+                              <i class="fas fa-phone-alt"></i> যোগাযোগঃ ০১৮৫৫৭৯৩১১১
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="2000">
+                        <img src="image/photos/slide1.jpg" class="d-block w-100" alt="image">
+                        <div class="overlay"></div>
+                        <div class="caption">
+                            <h1>আপনি কি প্রোগ্রাম ম্যানেজমেন্ট নিয়ে চিন্তিত ?</h1>
+                            <p>তাহলে আজই যোগাযোগ করুন আমাদের সাথে <br>
+                                কমিটেড  ইভেন্টস্ আপনাকে দিচ্ছে সুন্দর ও আকর্ষনীয় অনুষ্ঠানের নিশ্চয়তা। <br>
+                                স্থান: বঙ্গবন্ধু স্কয়ার সংলগ্ন, চৌদ্দগ্রাম বাজার, চৌদ্দগ্রাম, কুমিল্লা।  
+                            </p>
+                            <a href="tal:+8801855793111" class="btn contact-btn">
+                              <i class="fas fa-phone-alt"></i> যোগাযোগঃ ০১৮৫৫৭৯৩১১১
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="2000">
+                        <img src="image/photos/slide5.jpg" class="d-block w-100" alt="image">
+                        <div class="overlay"></div>
+                        <div class="caption">
+                            <h1>আপনি কি ইভেন্ট ম্যানেজমেন্ট করা নিয়ে ভাবছেন ?</h1>
+                            <p>তাহলে আজই যোগাযোগ করুন আমাদের সাথে <br>
+                                কমিটেড  ইভেন্টস্ আপনাকে দিচ্ছে সুন্দর ও আকর্ষনীয় অনুষ্ঠানের নিশ্চয়তা। <br>
+                                স্থান: বঙ্গবন্ধু স্কয়ার সংলগ্ন, চৌদ্দগ্রাম বাজার, চৌদ্দগ্রাম, কুমিল্লা।  
+                            </p>
+                            <a href="tal:+8801855793111" class="btn contact-btn">
+                              <i class="fas fa-phone-alt"></i> যোগাযোগঃ ০১৮৫৫৭৯৩১১১
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="2000">
+                        <img src="image/photos/slide6.jpg" class="d-block w-100" alt="image">
+                        <div class="overlay"></div>
+                        <div class="caption">
+                            <h1>আপনি কি জম্নদিনের আয়োজন নিয়ে টেনশন করছেন ?</h1>
+                            <p>তাহলে আজই যোগাযোগ করুন আমাদের সাথে <br>
+                                কমিটেড  ইভেন্টস্ আপনাকে দিচ্ছে সুন্দর ও আকর্ষনীয় অনুষ্ঠানের নিশ্চয়তা। <br>
+                                স্থান: বঙ্গবন্ধু স্কয়ার সংলগ্ন, চৌদ্দগ্রাম বাজার, চৌদ্দগ্রাম, কুমিল্লা।  
+                            </p>
+                            <a href="tal:+8801855793111" class="btn contact-btn">
+                              <i class="fas fa-phone-alt"></i> যোগাযোগঃ ০১৮৫৫৭৯৩১১১
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =========================== End Banner ============================ -->
+        <section id="package" class="pt-5">
+            <div class="container">
+                <div class="headding">
+                    <img src="image/photos/heading-blackBgimg.png" alt="headding-bottom">
+                    <h3><i class="fas fa-th"></i> আমাদের ফিক্সড প্যাকেজ সমূহ </h3>
+                    <img src="image/photos/heading-blackBgimg.png" alt="headding-bottom">
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-6 col-xl-3">
+                        <div class="packageBox card">
+                            <div><h4>সিম্পল প্যাকেজ</h4></div>
+                            <div class="img-area">
+                                <img src="image/photos/wedding-item3.jpg" class="card-img-top" alt="image">
+                            </div>
+                            <div class="card-body">
+                                <h6>বিবরণীঃ</h6>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"></li>
+                                    <li class="list-group-item"></li>
+                                    <li class="list-group-item"></li>
+                                    <li class="list-group-item"></li>
+                                    <li class="list-group-item">সর্বমোট মুল্যঃ <span>৮-৯ হাজার</span> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="packageBox card">
+                            <div><h4>গর্জিয়াস প্যাকেজ</h4></div>
+                            <div class="img-area">
+                                <img src="image/photos/wedding-item4.jpg" class="card-img-top" alt="image">
+                            </div>
+                            <div class="card-body">
+                                <h6>বিবরণীঃ</h6>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"></li>
+                                    <li class="list-group-item"></li>
+                                    <li class="list-group-item"></li>
+                                    <li class="list-group-item"></li>
+                                    <li class="list-group-item">সর্বমোট মুল্যঃ <span>১০-১১ হাজার</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="packageBox card">
+                            <div><h4> প্রো প্যাকেজ</h4></div>
+                            <div class="img-area">
+                                <img src="image/photos/wedding-item.jpg" class="card-img-top" alt="image">
+                            </div>
+                            <div class="card-body">
+                                <h6>বিবরণীঃ</h6>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"></li>
+                                    <li class="list-group-item"></li>
+                                    <li class="list-group-item"></li>
+                                    <li class="list-group-item"></li>
+                                    <li class="list-group-item">সর্বমোট মুল্যঃ <span>১২-১৩ হাজার</span> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3 ">
+                        <div class="packageBox card">
+                            <div><h4>প্রো ম্যাক্স প্যাকেজ</h4></div>
+                            <div class="img-area">
+                                <img src="image/photos/wedding-item2.jpg" class="card-img-top" alt="image">
+                            </div>
+                            <div class="card-body">
+                                <h6>বিবরণীঃ</h6>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"></li>
+                                    <li class="list-group-item"></li>
+                                    <li class="list-group-item"></li>
+                                    <li class="list-group-item"></li>
+                                    <li class="list-group-item">সর্বমোট মুল্যঃ <span>১৪-১৫ হাজার</span> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===================== End Package=============================== -->
+        <section id="catagory" class="py-5">
+            <div class="container">
+                <div class="headding">
+                    <img src="image/photos/heading-blackBgimg.png" alt="headding-bottom">
+                    <h3><i class="far fa-calendar-minus fa-1x"></i> আমাদের সকল সার্ভিস সমূহ </h3>
+                    <img src="image/photos/heading-blackBgimg.png" alt="headding-bottom">
+                </div>
+                <section id="decoration" class="service">
+                    <div class="head-top text-center">
+                        <h5><i class="fas fa-holly-berry"></i> ডেকোরেশন</h5>
+                        <img src="image/photos/heading-blackBgimg.png" width="200" class="mb-4 mt-2">
+                    </div>
+                    <div class="scroll-row">
+                        <div class="scroll-item">
+                           <a href="image/photos/Decoration2.jpg" data-lightbox="dacoration"><img src="image/photos/Decoration2.jpg" alt="image"></a>
+                           <div class="scroll-footer">
+                            <span>এখানে লিখুন </span>
+                           </div>
+                        </div>
+                        <div class="scroll-item">
+                            <a href="image/photos/Decoration12.jpg" data-lightbox="dacoration"><img src="image/photos/Decoration12.jpg" alt="image"></a>
+                           <div class="scroll-footer">
+                            <span>এখানে লিখুন </span>
+                           </div>                        
+                        </div>
+                        <div class="scroll-item">
+                            <a href="image/photos/Decoration15.jpg" data-lightbox="dacoration"><img src="image/photos/Decoration15.jpg" alt="image"></a> 
+                            <div class="scroll-footer">
+                             <span>এখানে লিখুন </span>
+                            </div>                        
+                         </div>
+                         <div class="scroll-item">
+                            <a href="image/photos/Decoration18.jpeg" data-lightbox="dacoration"><img src="image/photos/Decoration18.jpeg" alt="image"></a> 
+                            <div class="scroll-footer">
+                             <span>এখানে লিখুন </span>
+                            </div>                        
+                         </div>
+                         <div class="scroll-item">
+                            <a href="image/photos/Decoration19.jpeg" data-lightbox="dacoration"><img src="image/photos/Decoration19.jpeg" alt="image"></a> 
+                            <div class="scroll-footer">
+                             <span>এখানে লিখুন </span>
+                            </div>                        
+                         </div>
+                         <div class="scroll-item">
+                            <a href="image/photos/Decoration10.jpg" data-lightbox="dacoration"><img src="image/photos/Decoration10.jpg" alt="image"></a> 
+                            <div class="scroll-footer">
+                             <span>এখানে লিখুন </span>
+                            </div>                        
+                         </div>
+                        <div class="scroll-item">
+                            <a href="image/photos/Decoration11.jpg" data-lightbox="dacoration"><img src="image/photos/Decoration11.jpg" alt="image"> </a>
+                            <div class="scroll-footer">
+                             <span>এখানে লিখুন </span>
+                            </div>                        
+                        </div>
+                        <div class="scroll-item">
+                            <a href="image/photos/Decoration13.jpg" data-lightbox="dacoration"><img src="image/photos/Decoration13.jpg" alt="image"> </a>
+                            <div class="scroll-footer">
+                             <span>এখানে লিখুন </span>
+                            </div>                        
+                        </div>
+                        <div class="scroll-item">
+                            <a href="image/photos/Decoration9.jpg" data-lightbox="dacoration"><img src="image/photos/Decoration9.jpg" alt="image"> </a>
+                            <div class="scroll-footer">
+                             <span>এখানে লিখুন </span>
+                            </div>                        
+                        </div>
+                        <div class="scroll-item">
+                            <a href="image/photos/Decoration16.jpeg" data-lightbox="dacoration"><img src="image/photos/Decoration16.jpeg" alt="image"> </a>
+                            <div class="scroll-footer">
+                             <span>এখানে লিখুন </span>
+                            </div>                        
+                        </div>
+                        <div class="scroll-item">
+                            <a href="image/photos/Decoration20.jpeg" data-lightbox="dacoration"><img src="image/photos/Decoration20.jpeg" alt="image"> </a>
+                            <div class="scroll-footer">
+                             <span>এখানে লিখুন </span>
+                            </div>                        
+                        </div>
+                        <div class="scroll-item">
+                            <a href="image/photos/Decoration14.jpg" data-lightbox="dacoration"><img src="image/photos/Decoration14.jpg" alt="image"> </a>
+                            <div class="scroll-footer">
+                             <span>এখানে লিখুন </span>
+                            </div>                        
+                        </div>
+                    </div>
+                </section>
+                <!-- / Decoration -->
+                <section id="borsaj" class="service">
+                    <div class="head-top text-center">
+                        <h5><i class="fas fa-crown"></i> বর সাঁজ</h5>
+                        <img src="image/photos/heading-blackBgimg.png" width="200" class="mb-4 mt-2" alt="">
+                    </div>
+                    <div class="scroll-row">
+                        <div class="scroll-item">
+                           <a href="image/photos/borsaj.jpg" data-lightbox="borsaj"><img src="image/photos/borsaj.jpg" alt="image"></a> 
+                           <div class="scroll-footer">
+                            <span>এখানে লিখুন </span>
+                           </div>
+                        </div>
+                        <div class="scroll-item">
+                           <a href="image/photos/borsaj2.jpg" data-lightbox="borsaj"><img src="image/photos/borsaj2.jpg" alt="image"></a> 
+                           <div class="scroll-footer">
+                            <span>এখানে লিখুন </span>
+                           </div>                        
+                        </div>
+                        <div class="scroll-item">
+                            <a href="image/photos/borsaj5.jpg" data-lightbox="borsaj"><img src="image/photos/borsaj5.jpg" alt="image"></a> 
+                            <div class="scroll-footer">
+                             <span>এখানে লিখুন </span>
+                            </div>                        
+                        </div>
+                        <div class="scroll-item">
+                            <a href="image/photos/borsaj7.jpg" data-lightbox="borsaj"><img src="image/photos/borsaj7.jpg" alt="image"></a> 
+                            <div class="scroll-footer">
+                             <span>এখানে লিখুন </span>
+                            </div>                        
+                        </div>
+                        <div class="scroll-item">
+                            <a href="image/photos/borsaj6.jpg" data-lightbox="borsaj"><img src="image/photos/borsaj6.jpg" alt="image"></a> 
+                            <div class="scroll-footer">
+                             <span>এখানে লিখুন </span>
+                            </div>                        
+                        </div>
+                        <div class="scroll-item">
+                            <a href="" data-lightbox="borsaj"><img src="image/photos/borsaj8.jpg" alt="image"></a> 
+                            <div class="scroll-footer">
+                             <span>এখানে লিখুন </span>
+                            </div>                        
+                        </div>
+                    </div>
+                </section>
+                <!-- / Borsaj -->
+                <section id="konesaj" class="service">
+                    <div class="head-top text-center">
+                        <h5><i class="fas fa-crown"></i> কনে সাঁজ </h5>
+                        <img src="image/photos/heading-blackBgimg.png" width="200" class="mb-4 mt-2" alt="">
+                    </div>
+                    <div class="scroll-row">
+                        <div class="scroll-item">
+                           <a href="image/photos/Kone1.jpeg" data-lightbox="konesaj"><img src="image/photos/Kone1.jpeg" alt="image"></a> 
+                           <div class="scroll-footer">
+                            <span>এখানে লিখুন </span>
+                           </div>
+                        </div>
+                        <div class="scroll-item">
+                           <a href="image/photos/Kone3.jpeg" data-lightbox="konesaj"><img src="image/photos/Kone3.jpeg" alt="image" class="h-100"></a> 
+                           <div class="scroll-footer">
+                            <span>এখানে লিখুন </span>
+                           </div>                        
+                        </div>
+                        <div class="scroll-item">
+                            <a href="image/photos/Kone6.jpeg" data-lightbox="konesaj"><img src="image/photos/Kone6.jpeg" alt="image" class="h-100"></a>
+                            <div class="scroll-footer">
+                             <span>এখানে লিখুন </span>
+                            </div>                        
+                        </div>
+                        <div class="scroll-item">
+                            <a href="image/photos/Kone7.jpeg" data-lightbox="konesaj"><img src="image/photos/Kone7.jpeg" alt="image"></a> 
+                            <div class="scroll-footer">
+                             <span>এখানে লিখুন </span>
+                            </div>                        
+                        </div>
+                        <div class="scroll-item">
+                            <a href="image/photos/Kone5.jpeg" data-lightbox="konesaj"><img src="image/photos/Kone5.jpeg" alt="image"></a> 
+                            <div class="scroll-footer">
+                             <span>এখানে লিখুন </span>
+                            </div>                        
+                        </div>
+                        <div class="scroll-item">
+                            <a href="image/photos/Kone2.jpeg" data-lightbox="konesaj"><img src="image/photos/Kone2.jpeg" alt="image"></a> 
+                            <div class="scroll-footer">
+                             <span>এখানে লিখুন </span>
+                            </div>                        
+                        </div>
+                    </div>
+                </section>
+                <!-- / konesaj -->
+                <section id="holod" class="service">
+                    <div class="head-top text-center">
+                        <h5><i class="fas fa-crown"></i> হলুদ ছোঁয়া </h5>
+                        <img src="image/photos/heading-blackBgimg.png" width="200" class="mb-4 mt-2" alt="">
+                    </div>
+                    <div class="scroll-row">
+                        <div class="scroll-item">
+                           <a href="image/photos/Holod3.png" data-lightbox="holod"><img src="image/photos/Holod3.png" alt="image"></a> 
+                           <div class="scroll-footer">
+                            <span>এখানে লিখুন </span>
+                           </div>
+                        </div>
+                        <div class="scroll-item">
+                           <a href="image/photos/Holod3.jpeg" data-lightbox="holod"><img src="image/photos/Holod3.jpeg" alt="image"></a> 
+                           <div class="scroll-footer">
+                            <span>এখানে লিখুন </span>
+                           </div>                        
+                        </div>
+                        <div class="scroll-item">
+                            <a href="image/photos/Holod4.jpeg" data-lightbox="holod"><img src="image/photos/Holod4.jpeg" alt="image"></a>
+                            <div class="scroll-footer">
+                             <span>এখানে লিখুন </span>
+                            </div>                        
+                        </div>
+                        <div class="scroll-item">
+                            <a href="image/photos/Holod21.jpeg" data-lightbox="holod"><img src="image/photos/Holod5.jpeg" alt="image"></a> 
+                            <div class="scroll-footer">
+                             <span>এখানে লিখুন </span>
+                            </div>                        
+                        </div>
+                        <div class="scroll-item">
+                            <a href="image/photos/Holod17.jpg" data-lightbox="holod"><img src="image/photos/Holod17.jpg" alt="image"></a> 
+                            <div class="scroll-footer">
+                             <span>এখানে লিখুন </span>
+                            </div>                        
+                        </div>
+                        <div class="scroll-item">
+                            <a href="image/photos/Holod7.jpeg" data-lightbox="holod"><img src="image/photos/Holod7.jpeg" alt="image"></a> 
+                            <div class="scroll-footer">
+                             <span>এখানে লিখুন </span>
+                            </div>                        
+                        </div>
+                        <div class="scroll-item">
+                            <a href="image/photos/Holod6.jpeg" data-lightbox="holod"><img src="image/photos/Holod6.jpeg" alt="image"></a> 
+                            <div class="scroll-footer">
+                             <span>এখানে লিখুন </span>
+                            </div>                        
+                        </div>
+                        <div class="scroll-item">
+                            <a href="image/photos/Holod21.jpeg" data-lightbox="holod"><img src="image/photos/Holod21.jpeg" alt="image"></a> 
+                            <div class="scroll-footer">
+                             <span>এখানে লিখুন </span>
+                            </div>                        
+                        </div>
+                        <div class="scroll-item">
+                            <a href="image/photos/Holod22.jpeg" data-lightbox="holod"><img src="image/photos/Holod22.jpeg" alt="image"></a> 
+                            <div class="scroll-footer">
+                             <span>এখানে লিখুন </span>
+                            </div>                        
+                        </div>
+                    </div>
+                </section>
+                <!-- / Holod -->
+            </div>
+        </section>
+        <!-- ========================== End Catagory =================================== -->
+        <section id="photograpy" class="py-5">
+            <div class="container">
+                <div class="headding">
+                    <h1 class="text-dark"><i class="fas fa-camera-retro"></i> ফটোগ্রাফি</h1>
+                    <img src="image/photos/head-bottom4.png" width="300" alt="headding-bottom">
+                </div>
+                <div class="row photo-row">
+                    <div class="col-md-4 photo-box">
+                        <div class="photo-item">
+                            <a href="image/photos/photograpy6.jpg" data-lightbox="photograpy"><img src="image/photos/photograpy6.jpg" alt="photograpy"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 photo-box">
+                        <div class="photo-item">
+                            <a href="image/photos/photograpy4.jpg" data-lightbox="photograpy"><img src="image/photos/photograpy4.jpg" alt="photograpy"></a>
+                            <a href="image/photos/photograpy12.jpg" data-lightbox="photograpy" ><img class="mt-1" src="image/photos/photograpy12.jpg" alt="photograpy"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 photo-box">
+                        <div class="photo-item">
+                            <a href="image/photos/photograpy10.jpg" data-lightbox="photograpy"><img src="image/photos/photograpy10.jpg" alt="photograpy"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- first row -->
+                <div class="row photo-row2">
+                    <div class="col-md-4 photo-box">
+                        <div class="photo-item">
+                            <a href="image/photos/photograpy8.jpg" data-lightbox="photograpy"><img src="image/photos/photograpy8.jpg" alt="photograpy"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 photo-box">
+                        <div class="photo-item">
+                            <a href="image/photos/photograpy7.jpg" data-lightbox="photograpy"><img src="image/photos/photograpy7.jpg" alt="photograpy"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 photo-box">
+                        <div class="photo-item">
+                            <a href="image/photos/photograpy9.jpg" data-lightbox="photograpy"><img src="image/photos/photograpy9.jpg" alt="photograpy"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================================== End Photograpy ==================================-->
+        <section id="cooking" class="py-5">
+            <div class="container">
+                <div class="headding">
+                    <h1 class="text-dark"><i class="fas fa-menorah"></i> বাবুর্চি সার্ভিস </h1>
+                    <p>আপনি কি বাবুর্চি নিয়ে চিন্তা করছেন? আপনার চিন্তা দূর করতে আমরা আছি আপনার পাশে।</p>
+                </div>
+                <div class="row cook-row py-5">
+                    <div class="col-md-4 cook-box">
+                        <img src="image/photos/cooking.jpg" alt="image" class="img-fluid">
+                    </div>
+                    <div class="col-md-4 cook-box">
+                        <img src="image/photos/cooking2.jpg" alt="image" class="img-fluid">
+                    </div>
+                    <div class="col-md-4 cook-box">
+                        <img src="image/photos/cooking7.jpg" alt="image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =================================== End Cooking ==================================-->
+        <section id="kazi" class="pt-5 pb-3 mt-5">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-md-12 col-lg-6">
+                        <div class="headding">
+                            <h3 class="mb-3"> আপনি নিশ্চই এখন কাজী খুচ্ছেন?</h3>
+                            <p>বিয়ের আনন্দের মধ্যে সবচেয়ে গুরুত্বপূর্ণ কাজটি করেন কাজী সাহেব। কাজী বিয়ে রেজিস্ট্রি করে পাত্র-পাত্রীকে একত্রিত করে থাকেন। বিয়ে করতে সকলকে রেজিষ্ট্রী কাজীর মাধ্যমে করতে হয়। সরকার অনুমোদিত বিবাহ রেজিস্টার  কাজী জন্য চিন্তার কোন কারন নেই, আপনাকে এর কাজী খুঁজতে এদিক সেদিক যেতে ই হবে না। এই সেবা টি ও আপনি আমাদের নিকট পাচ্ছেন। তাই এখন ই যোগাযোগ করুন আমাদের সাথে।</p>
+                        </div>
+                        <div class="text-center">
+                            <a href="tal:+8801855793111" class="btn contact-btn">
+                                <i class="fas fa-phone-alt"></i> যোগাযোগঃ ০১৮৫৫৭৯৩১১১
+                              </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-center d-none d-lg-block">
+                        <img src="image/photos/kazi.jpg" class="img-thumbnail w-50" alt="image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer" class="py-5">
+            <div class="container">
+                <div class="row py-5 mt-5">
+                    <div class="col-md-5 first-colm mb-5">
+                       <h4>আমাদের সাথে যোগাযোগঃ</h4>
+                       <div class="colm-body">
+                            <div class="call colm-boder-left">
+                                <p>কল করুনঃ</p>
+                                <a href="tel:+8801855793111">০১৮৫৫৭৯৩১১১</a>
+                            </div>
+                            <div class="email colm-boder-left">
+                                <p>ইমেইল করুনঃ</p>
+                                <a href="">Event@example.com</a>
+                            </div>
+                            <div class="address colm-boder-left">
+                                <p>ঠিকানাঃ</p>
+                                <address>
+                                    বঙ্গবন্ধু স্কয়ার সংলগ্ন, চৌদ্দগ্রাম বাজার, <br> চৌদ্দগ্রাম-৩৫৫০, কুমিল্লা।
+                                </address>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 secound-colm">
+                        <h4>গুরুত্বপূর্ণ লিঙ্ক সমূহঃ</h4>
+                        <div class="colm-body">
+                            <ul>
+                                <li class="nav-item"><a class="nav-link" href="#">হোম</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">ফিক্সড প্যাকেজ</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">সার্ভিস</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">ফটোগ্রাফি</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">কাজী অফিস</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 last-colm">
+                        <h4>আমাদের সাথে কানেক্টঃ</h4>
+                        <div class="colm-body">
+                            <div class="facebook item">
+                                <img src="image/Icons/FB-198e8290a33407c74db8b7b127883898.png" alt="">
+                             <a href="https://facebook.com/committedeventsmanagement/"><span>ফেসবুক</span></a>
+                            </div>
+                            <div class="instagram item">
+                                <img src="image/Icons/Instagram-e120768b2ac5f3491dde83f14404339e.png" alt="">
+                                <a href=""><span>ইনস্টাগ্রাম</span></a>
+                            </div>
+                            <div class="youtube item">
+                                <img src="image/Icons/whatsapp.png" width="25" alt="">
+                                <a href=""><span>হোয়াটসঅ্যাপ</span></a>
+                            </div>
+                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fweb.facebook.com%2Fcommittedeventsmanagement&tabs=timeline&width=340&height=150&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="360" height="150" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div id="footer-bottom" class="py-3 text-center">
+            <p class="m-0">কপিরাইট &copy; <span id="years"></span> কমিটেড ইভেন্ট ম্যানেজমেন্ট কর্তৃক সর্বত্ত সংরক্ষিত। Design By <a href="www.facebook.com/fr.afser">Fazle Rabbi Afser</a></p>
+        </div>
+    </div>
+    <!-- =========== Javascript ============= -->
+    <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+    <script type="text/javascript" src="js/navbar-fixed.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
